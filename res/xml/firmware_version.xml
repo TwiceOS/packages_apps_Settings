@@ -23,6 +23,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Twice logo -->
+    <PreferenceScreen
+        android:layout="@layout/twice_logo"
+        android:key="twice_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
