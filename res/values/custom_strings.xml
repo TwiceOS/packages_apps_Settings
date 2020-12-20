@@ -130,4 +130,9 @@ Notifications may be delayed for these apps."</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Twice Maintainer -->
+    <string name="twice_maintainer">Twice Maintainer</string>
+    <string name="twice_maintainer_default">Unknown</string>
+    <string name="keywords_twice_maintainer">twice maintainer</string>
+
 </resources>
