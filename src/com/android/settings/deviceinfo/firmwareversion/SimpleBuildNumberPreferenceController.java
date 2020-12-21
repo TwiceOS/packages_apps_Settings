@@ -39,10 +39,10 @@ public class SimpleBuildNumberPreferenceController extends BasePreferenceControl
     public CharSequence getSummary() {
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
-        String pixelExperienceVersion = VersionUtils.getPixelExperienceVersion();
-        if (!pixelExperienceVersion.equals("")){
+        String twiceosVersion = VersionUtils.getTwiceOSVersion();
+        if (!twiceosVersion.equals("")){
             sb.append("\n");
-            sb.append(pixelExperienceVersion);
+            sb.append(twiceosVersion);
         }
         return sb.toString();
     }
